@@ -12,6 +12,22 @@ It provides tabular and Markdown reports covering:
 * Vulnerability scanning using **Trivy**
 * Automatically generated Markdown report (`report.md`)
 
+## Key Features
+* Deployment Audit: Lists all deployments within a namespace, including:
+    Deployment name
+    Container images
+    Last updated timestamp
+* Namespace Comparison:
+    Highlights differences in deployments between two namespaces (e.g., missing services or version mismatches).
+* Security Scanning:
+    Detects privileged or non-root containers.
+    Checks for missing resource limits and absent securityContext.
+    Validates presence of Network Policies.
+    Verifies Ingress TLS configuration.
+    Performs image vulnerability scans using Trivy.
+* Comprehensive Reporting:
+    Generates a structured report.md with findings and recommendations.
+
 ---
 
 ## 2. Prerequisites
