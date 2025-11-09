@@ -3,14 +3,23 @@
 ## 1. Project Overview
 
 This tool audits deployments running on Kubernetes clusters to identify version differences, configuration inconsistencies, and potential security issues.
-It provides tabular and Markdown reports covering:
 
-* Names and images of deployments
-* Deployment creation timestamps
-* Namespace comparison (differences in deployments or image versions)
-* Security checks (container, configuration, network, ingress)
-* Vulnerability scanning using **Trivy**
-* Automatically generated Markdown report (`report.md`)
+## Key Features
+It provides tabular and Markdown reports.
+* Deployment Audit: Lists all deployments within a namespace, including:
+    Deployment name
+    Container images
+    Last updated timestamp
+* Namespace Comparison:
+    Highlights differences in deployments between two namespaces (e.g., missing services or version mismatches).
+* Security Scanning:
+    Detects privileged or non-root containers.
+    Checks for missing resource limits and absent securityContext.
+    Validates presence of Network Policies.
+    Verifies Ingress TLS configuration.
+    Performs image vulnerability scans using Trivy.
+* Comprehensive Reporting:
+    Generates a structured report.md with findings and recommendations.
 
 ---
 
@@ -246,7 +255,7 @@ Your `report.md` file will include:
 Example excerpt:
 
 ```
-### Ingress TLS Verification
+ Ingress TLS Verification
 - Ingress 'frontend-ingress' has no TLS configuration (HTTP only).
 - Ingress 'frontend-ingress' is secured with TLS
 ```
