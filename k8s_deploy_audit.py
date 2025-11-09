@@ -201,7 +201,7 @@ def scan_image_vulnerabilities(image_name: str, full_output=False):
         else:
             output = (result.stdout or result.stderr).strip()
             if full_output:
-                findings.append(f"###  Full Trivy Scan Report for `{image_name}`\n")
+                findings.append(f" Full Trivy Scan Report for `{image_name}`\n")
                 findings.append("```\n" + output + "\n```\n")
             else:
                 # Summary mode (for terminal print)
@@ -354,7 +354,7 @@ def main():
                     f.write(f"- {fnd}\n")
                 f.write("\n\n### Image Vulnerability Scans (Trivy)\n")
                 for img in sorted(unique_images):
-                    f.write(f"\n\n  Trivy Vulnerability Report for `{img}`\n")
+                    f.write(f"\n\n Trivy Vulnerability Report for `{img}`\n")
                     if args.skip_trivy:
                         f.write(" Trivy scan skipped (--skip-trivy used)\n")
                     else:
