@@ -1,6 +1,6 @@
 # Kubernetes Deployment Audit Report
 
-**Generated on:** 2025-11-09 18:57:19
+**Generated on:** 2025-11-09 20:16:44
 
 **Namespaces Compared:** `nb-default` vs `nb-modified`
 
@@ -92,66 +92,66 @@
 ### Image Vulnerability Scans (Trivy)
 
 
-##  Trivy Vulnerability Report for `gcr.io/google-samples/microservices-demo/frontend:v0.2.0`
+  Trivy Vulnerability Report for `gcr.io/google-samples/microservices-demo/frontend:v0.2.0`
 [gcr.io/google-samples/microservices-demo/frontend:v0.2.0]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `redis:alpine`
+  Trivy Vulnerability Report for `redis:alpine`
 [redis:alpine]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/adservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/adservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/adservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/cartservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/cartservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/cartservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/checkoutservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/checkoutservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/checkoutservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/currencyservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/currencyservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/currencyservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/emailservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/emailservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/emailservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/frontend:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/frontend:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/frontend:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/loadgenerator:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/loadgenerator:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/loadgenerator:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/paymentservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/paymentservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/paymentservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/productcatalogservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/productcatalogservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/productcatalogservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/recommendationservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/recommendationservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/recommendationservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
 
 
-##  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/shippingservice:v0.10.3`
+  Trivy Vulnerability Report for `us-central1-docker.pkg.dev/google-samples/microservices-demo/shippingservice:v0.10.3`
 [us-central1-docker.pkg.dev/google-samples/microservices-demo/shippingservice:v0.10.3]  No CRITICAL/HIGH vulnerabilities found.
 
