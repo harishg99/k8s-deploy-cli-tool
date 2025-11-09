@@ -34,7 +34,7 @@ Ensure the following tools are installed and accessible from your terminal:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/harishg99/k8s-deploy-audit.git
+git clone https://github.com/harishg99/k8s-deploy-cli-tool
 cd k8s-deploy-audit
 ```
 
@@ -283,3 +283,4 @@ minikube stop
 | Vulnerability scanning                    | Trivy integrated                  | Completed |
 | Report generation                         | Markdown output                   | Completed |
 | GitHub repository                         | Publicly accessible               | Completed |
+
