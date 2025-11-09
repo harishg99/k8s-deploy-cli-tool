@@ -255,7 +255,7 @@ Your `report.md` file will include:
 Example excerpt:
 
 ```
-### Ingress TLS Verification
+ Ingress TLS Verification
 - Ingress 'frontend-ingress' has no TLS configuration (HTTP only).
 - Ingress 'frontend-ingress' is secured with TLS
 ```
