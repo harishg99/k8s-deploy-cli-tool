@@ -3,16 +3,9 @@
 ## 1. Project Overview
 
 This tool audits deployments running on Kubernetes clusters to identify version differences, configuration inconsistencies, and potential security issues.
-It provides tabular and Markdown reports covering:
-
-* Names and images of deployments
-* Deployment creation timestamps
-* Namespace comparison (differences in deployments or image versions)
-* Security checks (container, configuration, network, ingress)
-* Vulnerability scanning using **Trivy**
-* Automatically generated Markdown report (`report.md`)
 
 ## Key Features
+It provides tabular and Markdown reports.
 * Deployment Audit: Lists all deployments within a namespace, including:
     Deployment name
     Container images
